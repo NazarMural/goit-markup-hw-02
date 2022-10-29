@@ -1,0 +1,56 @@
+/* - - - - - - Змінні - - - - - - */
+:root{
+    --text-color: #757575;
+    --title-color: #212121;
+    --accent-color: #2196F3;
+    --bgd-color: #F5F5F5;
+
+}
+/* - - - - - - Згобальні стилі - - - - - - */
+body{
+    background-color: var(--bgd-color);
+    color: var(--text-color);
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+ul{
+    list-style-type: none;  /* Селектор забирає маркування */
+    padding-left: 0;
+}
+
+/* - - - - - - Студія - - - - - - */
+
+/* - - - - Heder - - - - */
+header a:hover,
+header a:focus{
+    color: var(--accent-color);
+}
+
+/* - - Логотип - - */
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+.logo > span{
+    color: var(--accent-color);
+}
+/* - - Навігація - - */
+.site-nav .link{
+    color: #212121;
+
+    text-decoration: none;
+}
+/* - - Контактні дані - - */
+.contacts .link{
+    color: #757575;
+
+    text-decoration: none;
+}
