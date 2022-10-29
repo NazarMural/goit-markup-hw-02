@@ -13,6 +13,7 @@ body{
 
     font-family: Roboto, sans-serif;
     font-size: 14px;
+    letter-spacing: 0.03em;
 }
 ul{
     list-style-type: none;  /* Селектор забирає маркування */
@@ -22,8 +23,8 @@ ul{
 /* - - - - - - Студія - - - - - - */
 
 /* - - - - Heder - - - - */
-header a:hover,
-header a:focus{
+.header a:hover,
+.header a:focus{
     color: var(--accent-color);
 }
 
@@ -33,7 +34,6 @@ header a:focus{
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
     color: #000000;
 
     text-decoration: none;
@@ -42,15 +42,63 @@ header a:focus{
 .logo > span{
     color: var(--accent-color);
 }
+
 /* - - Навігація - - */
 .site-nav .link{
     color: #212121;
 
     text-decoration: none;
 }
+
 /* - - Контактні дані - - */
 .contacts .link{
     color: #757575;
 
     text-decoration: none;
 }
+
+
+/* - - - - Main - - - - */
+.section-title{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;   
+    color: var(--title-color);
+}
+
+/* - - Секція Герой - - */
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #000000; /* !!!!!!!!!!! Тимчасово для відображення білого тексту*/
+
+    text-align: center;
+    text-transform: uppercase;   
+}
+.button-hero{
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        background-color: var(--accent-color);
+}
+
+/* - - Перелік особливостей компанії - - */
+.feature-list .title{
+    line-height: 16px;
+    color: var(--title-color);
+
+    text-transform: uppercase;
+}
+.feature-list .text{
+    line-height: 24px;
+}
+
+
+
+
+
