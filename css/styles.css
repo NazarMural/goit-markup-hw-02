@@ -15,10 +15,10 @@ body{
     font-size: 14px;
     letter-spacing: 0.03em;
 }
-ul{
-    list-style-type: none;  /* Селектор забирає маркування */
+/*ul{
+    list-style-type: none;   Селектор забирає маркування 
     padding-left: 0;
-}
+}*/
 
 /* - - - - - - Студія - - - - - - */
 
