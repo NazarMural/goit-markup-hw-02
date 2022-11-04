@@ -15,19 +15,21 @@ body{
     font-size: 14px;
     letter-spacing: 0.03em;
 }
-/*ul{
-    list-style-type: none;   Селектор забирає маркування 
+/* ul{
+    list-style-type: none;
     padding-left: 0;
-}*/
+}
+a{
+    text-decoration: none;
+} */
 
 /* - - - - - - Студія - - - - - - */
 
 /* - - - - Heder - - - - */
 .header .link{
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 .header .link:hover,
 .header .link:focus{
@@ -39,11 +41,10 @@ body{
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: #000000;
 
     text-decoration: none;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 .logo > span{
     color: var(--accent-color);
@@ -66,19 +67,21 @@ body{
 /* - - - - Main - - - - */
 .section-title{
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;   
     color: var(--secondary-text-color);
 }
 
 /* - - Секція Герой - - */
+.hero{
+    background-color: #2F303A;
+}
 .hero-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background-color: #000000; /* !!!!!!!!!!! Тимчасово для відображення білого тексту*/
 
     text-align: center;
     text-transform: uppercase;   
@@ -86,52 +89,64 @@ body{
 .button-hero{
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: var(--accent-color);
 
+    text-align: center;
+
     cursor: pointer;
+}
+.button-hero:hover, .button-hero:focus{
+    background-color: #188CE8;
 }
 
 /* - - Перелік особливостей компанії - - */
 .feature-list .title{
-    line-height: 16px;
+    line-height: 1.14;
     color: var(--secondary-text-color);
 
     text-transform: uppercase;
 }
 .feature-list .text{
-    line-height: 24px;
+    line-height: 1.71;
 }
 
 /* - - Команда комапнії - - */
 .worker-name{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     color: var(--secondary-text-color);
 }
 .profession{
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
+}
+.worker-list > .list{
+    text-align: center;
 }
 
 /* - - - - Footer - - - - */
+.footer{
+    background-color: #2F303A;
+}
 .logo-footer{
     color: #FFFFFF;
     text-shadow: none;
-    background-color: #000000;/* !!!!!!!!!!! Тимчасово для відображення білого тексту*/
 }
 address{
     line-height: 24px;
     color: #FFFFFF;
-    background-color: #000000;
-        /* !!!!!!!!!!! Тимчасово для відображення білого тексту*/
 }
 .contacts-footer .link{
-    line-height: 24px;
+    line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
 }
 
 /* - - - - - - Портфоліо - - - - - - */
@@ -142,7 +157,7 @@ address{
 .button-list .button{
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.63;
     color: var(--secondary-text-color);
 
     cursor: pointer;
@@ -156,11 +171,11 @@ address{
 /* - - Список проектів - - */
 .project-list .title{
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--secondary-text-color);
 }
 .project-list .type{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
 }
